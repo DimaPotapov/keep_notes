@@ -1,0 +1,60 @@
+input[type=text] {
+    background-color: white;
+    color: #4CAF50;
+    padding: 4px 88px;
+    border: 2px solid #4CAF50;
+    border-radius: 4px;
+}
+
+input[type=submit] {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 8px 140px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+form {
+	top: 50%; /* Отступ в процентах от верхнего края окна */
+	left: 50%; /* Отступ в процентах от левого края окна */
+	width: 450px; /* Ширина блока */
+	height: 450px; /* Высота блока */
+	position: absolute; /* Абсолютное позиционирование блока */
+	margin-top: -225px; /* Отрицательный отступ от верхнего края страницы, должен равняться половине высоты блока со знаком минус */
+	margin-left: -225px; /* Отрицательный отступ от левого края страницы, должен равняться половине высоты блока со знаком минус */
+	border-style: solid;
+    border-color: green;
+    background-color: white;
+}
+
+.form-center {
+	padding-left: 60px;
+	padding-top: 50px;
+}
+
+
+.button_signup {
+ background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 8px 138px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+
+}
+
+.about_us{
+	padding: 190px;
+}
+
+body{
+	background-color:  #4CAF50;
+}
+
+.text_title {
+font-family: 'Pacifico', cursive;
+font-size: 60px;
+}
